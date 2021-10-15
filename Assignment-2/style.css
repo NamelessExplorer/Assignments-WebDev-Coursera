@@ -19,6 +19,7 @@ article{
   padding-top: 0px;
   font-weight:900;
   font-size:1.5em;
+  text-align:center;
 
 }
 p{
@@ -59,3 +60,8 @@ p{
         width:100%
   }
 }
+
+h1 {
+  margin: 0 auto;
+  text-align:center;
+  }
