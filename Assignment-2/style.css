@@ -1,0 +1,61 @@
+section{
+  display:inline-block;
+  background-color:gray;
+  border: 2px solid black;
+  width: 25%;
+  padding-top: 0px;
+  margin: 3%;
+  border-radius: 4px;
+}
+article{
+  float:right;
+  width: 160px;
+  border: 2px solid black;
+  border-top:none;
+  border-right:none;
+  border-radius: 4px;
+  background-color:palevioletred;
+  margin: 0%;
+  padding-top: 0px;
+  font-weight:900;
+  font-size:1.5em;
+
+}
+p{
+  padding: 20px;
+  margin-top:20px;
+}
+#beef{
+  color:white;
+  font-weight:900;
+  background-color:tomato;
+}
+
+#sushi{
+  font-weight:900;
+  background-color:wheat;
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+  section{
+   width:40%;
+    margin:3%;
+  }
+  #something{
+    display:block;
+    width:auto;
+    margin:3%;
+    margin-left:3%;
+    margin-right:5%;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  section {
+        display: block;
+        margin-left:0%;
+        margin-right:0%;
+        width:100%
+  }
+}
